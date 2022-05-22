@@ -6,7 +6,7 @@ jobs:
     name: A job to say hello
     steps:
       - name: Hello world action step
-        uses: takanome-dev/hello-world-js-action@v1.1
+        uses: takanome-dev/hello-world-js-action@v1.1.2
         id: hello
         with:
           who-to-greet: 'Takanome the Open Source Guy'
